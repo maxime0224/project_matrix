@@ -70,5 +70,5 @@ Documentation technique pour le déploiement d'un Bridge entre Matrix et Telegra
 
 ## LICENCES <a id="license"></a>
 
-- [Licence Apache](LICENCE_APACHE)
-- [Licence Nginx](LICENCE_NGINX)
+- [Licence Apache](LICENCE_APACHE.txt)
+- [Licence Nginx](LICENCE_NGINX.txt)
