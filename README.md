@@ -11,6 +11,8 @@
 -  [3 - Création d’un relais VoIP avec un TURN SERVER](#voip)
 -  [4 - Déploiement d’un Bridge entre Matrix et Telegram](#bridge)
   
+[Fichiers de Configurations](#conf)
+
 [Sources](#source)
 
 [Licences](#license)
@@ -60,6 +62,14 @@ Documentation technique pour la création d'un relais VoiP sur un homeserver Syn
 ## 4 - Déploiement d’un Bridge entre Matrix et Telegram <a id="bridge"></a>
 
 Documentation technique pour le déploiement d'un Bridge entre Matrix et Telegram sur un homeserver Synpase disponible [ici](Bridge_Matrix_Telegram.md)
+
+## Fichiers de Configurations <a id="conf"></a>
+
+Fichiers de configurations [Synapse](project_matrix/etc/matrix-synapse)
+
+Fichiers de configurations [Nginx](project_matrix/etc/nginx)
+
+Fichiers de configurations [Bridge Telegral](project_matrix/etc/matrix-synapse/matrix-telegram)
 
 ## SOURCES <a id="source"></a>
 
