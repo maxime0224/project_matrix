@@ -65,11 +65,11 @@ Documentation technique pour le déploiement d'un Bridge entre Matrix et Telegra
 
 ## Fichiers de Configurations <a id="conf"></a>
 
-Fichiers de configurations [Synapse](project_matrix/etc/matrix-synapse)
+Fichiers de configurations [Synapse](etc/matrix-synapse)
 
-Fichiers de configurations [Nginx](project_matrix/etc/nginx)
+Fichiers de configurations [Nginx](etc/nginx)
 
-Fichiers de configurations [Bridge Telegral](project_matrix/etc/matrix-synapse/matrix-telegram)
+Fichiers de configurations [Bridge Telegral](etc/matrix-synapse/matrix-telegram)
 
 ## SOURCES <a id="source"></a>
 
