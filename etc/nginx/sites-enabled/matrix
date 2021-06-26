@@ -1,0 +1,54 @@
+server {
+    if ($host = maxrasp.ddns.net) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+  listen 80;
+  listen [::]:80;
+  server_name maxrasp.ddns.net;
+  return 301 https://$host$request_uri;
+
+
+}
+
+server {
+  listen 443 ssl;
+  listen [::]:443 ssl;
+  server_name maxrasp.ddns.net;
+
+  ssl on;
+    ssl_certificate /etc/letsencrypt/live/maxrasp.ddns.net/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/maxrasp.ddns.net/privkey.pem; # managed by Certbot
+
+  access_log /var/log/nginx/matrix.access.log;
+  error_log /var/log/nginx/matrix.error.log;
+
+  location / {
+    proxy_pass http://192.168.1.8:8008;
+    proxy_set_header X-Forwarded-For $remote_addr;
+    client_max_body_size 10M;
+  }
+  location ~ /.well-known {
+      allow all;
+  }
+
+}
+
+server {
+  listen 8448 ssl default_server;
+  listen [::]:8448 ssl default_server;
+  server_name maxrasp.ddns.net;
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/maxrasp.ddns.net/fullchain.pem;
+  ssl_certificate_key /etc/letsencrypt/live/maxrasp.ddns.net/privkey.pem;
+
+  access_log /var/log/nginx/matrix.access.log;
+  error_log /var/log/nginx/matrix.error.log;
+
+  location / {
+    proxy_pass http://192.168.1.8:8008;
+    proxy_set_header X-Forwarded-For $remote_addr;
+  }
+}

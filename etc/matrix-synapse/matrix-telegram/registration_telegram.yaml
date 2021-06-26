@@ -1,0 +1,15 @@
+id: telegram
+as_token: zTod90XuvkAxifwCiyS3ksOxfiJ5mJ9fgP18B5cqfkNol5_q6cWx-mgp7HhKYb5g
+hs_token: mfoPo2riRFd_rQGn_UMbzpO8vK5Z3hkFpMNlShQrMKUEFz-YyDDkiPdj5ahRylK6
+namespaces:
+    users:
+    - exclusive: true
+      regex: '@telegram_.*:maxrasp\.ddns\.net'
+    - exclusive: true
+      regex: '@telegrambot:maxrasp\.ddns\.net'
+    aliases:
+    - exclusive: true
+      regex: \#telegram_.*:maxrasp\.ddns\.net
+url: http://localhost:29317
+sender_localpart: TPg_59dVXmaMfdA-Qmy8ODBo-2O-XlEZ1ZMU9z2yYirPrWFFA7Q6-i0zrb7UFqFS
+rate_limited: false
