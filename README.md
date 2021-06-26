@@ -26,3 +26,5 @@ En 2015, une filiale d'Amdocs a été créée, dénommée "Vector Creations Limi
 Après avoir annoncé le 23 juin 2020 le changement de nom de Riot.im (le client de messagerie) et New Vector (la société qui développe Riot) ont été renommés Element le 15 juillet 2020.
 
 En juillet 2020, Element, a remporté le plus gros contrat au monde pour un service logiciel collaboratif, fournissant un demi-million de licences pour faciliter la communication dans le système éducatif allemand32
+
+## Fonctionnement de l’architecture Matrix
