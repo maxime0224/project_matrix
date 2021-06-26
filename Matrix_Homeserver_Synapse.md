@@ -1,5 +1,5 @@
 # Matrix Synpase
-#Installation de Synpase HomeServeur sur Ubuntu 20.04
+##Installation de Synpase HomeServeur sur Ubuntu 20.04
 
 ## Prérequis
 - Ubuntu 18.04 ou plus récent
