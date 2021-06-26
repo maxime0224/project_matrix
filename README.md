@@ -2,14 +2,14 @@
 
 ## Sommaire
 
--  Introduction(#intro)
--  Qu’est-ce que Matrix ?(#about)
--  Un peu d’histoire(#story)
--  Fonctionnement de l’architecture Matrix(#architecture)
--  1) Installation d’un serveur Matrix Local(#matrixlan)
--  2) Installation d’un serveur Matrix Publique(#mtrixwan
--  3) Création d’un relais VoIP avec un TURN SERVER(#voip)
--  4) Déploiement d’un Bridge entre Matrix et Telegram(#bridge)
+-  [Introduction](#intro)
+-  [Qu’est-ce que Matrix ?](#about)
+-  [Un peu d’histoire](#story)
+-  [Fonctionnement de l’architecture Matrix](#architecture)
+-  [1 - Installation d’un serveur Matrix Local](#matrixlan)
+-  [2 - Installation d’un serveur Matrix Publique](#mtrixwan
+-  [3 - Création d’un relais VoIP avec un TURN SERVER](#voip)
+-  [4 - Déploiement d’un Bridge entre Matrix et Telegram](#bridge)
   
 [Source](#source)
 
@@ -43,10 +43,10 @@ En juillet 2020, Element, a remporté le plus gros contrat au monde pour un serv
 
 ## Fonctionnement de l’architecture Matrix <a id="architecture"></a>
 
-## 1) Installation d’un serveur Matrix Local <a id="matrixlan"></a>
+## 1 - Installation d’un serveur Matrix Local <a id="matrixlan"></a>
 
-## 2) Installation d’un serveur Matrix Publique <a id="matrixwan"></a>
+## 2 - Installation d’un serveur Matrix Publique <a id="matrixwan"></a>
 
-## 3) Création d’un relais VoIP avec un TURN SERVER <a id="voip></a>
+## 3 - Création d’un relais VoIP avec un TURN SERVER <a id="voip></a>
 
-## 4) Déploiement d’un Bridge entre Matrix et Telegram <a id="bridge"></a>
+## 4 - Déploiement d’un Bridge entre Matrix et Telegram <a id="bridge"></a>
