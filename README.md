@@ -7,7 +7,7 @@
 -  [Un peu d’histoire](#story)
 -  [Fonctionnement de l’architecture Matrix](#architecture)
 -  [1 - Installation d’un serveur Matrix Local](#matrixlan)
--  [2 - Installation d’un serveur Matrix Publique](#mtrixwan
+-  [2 - Installation d’un serveur Matrix Publique](#matrixwan)
 -  [3 - Création d’un relais VoIP avec un TURN SERVER](#voip)
 -  [4 - Déploiement d’un Bridge entre Matrix et Telegram](#bridge)
   
@@ -47,6 +47,6 @@ En juillet 2020, Element, a remporté le plus gros contrat au monde pour un serv
 
 ## 2 - Installation d’un serveur Matrix Publique <a id="matrixwan"></a>
 
-## 3 - Création d’un relais VoIP avec un TURN SERVER <a id="voip></a>
+## 3 - Création d’un relais VoIP avec un TURN SERVER <a id="voip"></a>
 
 ## 4 - Déploiement d’un Bridge entre Matrix et Telegram <a id="bridge"></a>
