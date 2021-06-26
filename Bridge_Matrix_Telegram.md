@@ -291,7 +291,7 @@ python -m mautrix_telegram
 Si tout c'est bien passé vous devriez avoir ce type de message : ***Initializing appservice bot***
 
 ## Étape 7 - Invitation du Bot dans Telegram et Element<a id="etape7"></a>
-##Sur Telegram<a id="etape7.1"></a>
+## Sur Telegram<a id="etape7.1"></a>
 
 Créer un nouveau groupe puis inviter votre bot @example_bot puis dans la gestion du groupe lui donner les droits administrateurs.
 
@@ -301,7 +301,7 @@ Le bot doit vous répondre et vous donner un numéro commençant par un ```-```
 
 Conserver ce numéro, c'est le numéro du bridge
 
-##Sur Element<a id="etape7.2"></a>
+## Sur Element<a id="etape7.2"></a>
 
 Dans notre exemple, nous utilisons le client Element, n'importe quel client supportant Matrix peut-être utilisé
 
