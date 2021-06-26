@@ -11,7 +11,9 @@
 -  [3 - Création d’un relais VoIP avec un TURN SERVER](#voip)
 -  [4 - Déploiement d’un Bridge entre Matrix et Telegram](#bridge)
   
-[Source](#source)
+[Sources](#source)
+
+[Licences](#license)
 
 ## Introduction <a id="intro"></a>
 
@@ -45,8 +47,28 @@ En juillet 2020, Element, a remporté le plus gros contrat au monde pour un serv
 
 ## 1 - Installation d’un serveur Matrix Local <a id="matrixlan"></a>
 
+Documentation technique pour l'installation d'un homeserver Synpase en local disponible [ici]()
+
 ## 2 - Installation d’un serveur Matrix Publique <a id="matrixwan"></a>
+
+Documentation technique pour l'installation d'un homeserver Synpase sur le réseau publique disponible [ici]()
 
 ## 3 - Création d’un relais VoIP avec un TURN SERVER <a id="voip"></a>
 
+Documentation technique pour la création d'un relais VoiP sur un homeserver Synpase disponible [ici]()
+
 ## 4 - Déploiement d’un Bridge entre Matrix et Telegram <a id="bridge"></a>
+
+Documentation technique pour le déploiement d'un Bridge entre Matrix et Telegram sur un homeserver Synpase disponible [ici]()
+
+## SOURCES <a id="source"></a>
+
+- [Site Matrix](https://matrix.org)
+- [Installation de Synapse](https://www.natrius.eu/dokuwiki/doku.php?id=digital:server:matrixsynapse)
+- [Relais VoIP](https://github.com/matrix-org/synapse/blob/develop/docs/turn-howto.md)
+- [Bridge Matrix Telegram](https://docs.mau.fi/bridges/python/setup/index.html?bridge=telegram)
+
+## LICENCES <a id="license"></a>
+
+- [Licence Apache]()
+- [Licence Nginx]()
