@@ -69,9 +69,9 @@ Fichiers de configurations [Synapse](etc/matrix-synapse)
 
 Fichiers de configurations [Nginx](etc/nginx)
 
-Fichiers de configurations [Bridge Telegram](etc/matrix-synapse/matrix-telegram)
-
 Fichier de configuration [Serveur TURN](etc/turnserver.conf)
+
+Fichiers de configurations [Bridge Telegram](etc/matrix-synapse/matrix-telegram)
 
 ## SOURCES <a id="source"></a>
 
